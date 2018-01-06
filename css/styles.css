@@ -1,0 +1,82 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertial-align: baseline;
+}
+div{
+  position: relative;
+  z-index: 2;
+}
+
+body{
+  background: #2E294E;
+  color: #2E294E;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.quoteArea{
+  border-radius: 4px;
+  position: relative;
+  margin: 4% auto auto auto;
+  width: 750px;
+  padding: 50px 60px;
+  display: table;
+  background: #fff;
+  text-align: center;
+}
+
+.quoteArea .quoteText{
+  width: 750px;
+  height: auto;
+  clear: both;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 1.6em;
+}
+
+.quoteArea .quoteText i{
+  font-size: 1em;
+  margin-right: .4em;
+}
+
+.quoteArea .quoteSpeaker{
+  width: 750px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.quoteArea .buttons{
+  width: 450px;
+  margin: auto;
+  display: block;
+}
+
+.quoteArea .buttons .button{
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background: #2E294E;
+  outline: none;
+  font-size: 0.85em;
+  padding: 10px 15px 8px 15px;
+  margin-top: 35px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.quoteArea .buttons .button:hover{
+  opacity: 0.9;
+}
+
+.quoteArea .buttons .button#newQuote{
+  float: right;
+}
